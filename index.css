@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+.container {
+    display: flex;
+    width: 420px;
+    height: 800px;
+    background-color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    flex-direction: column;
+    overflow: hidden;
+}
+.screen {
+    display: flex;
+    align-items: end;
+    height: 300px;
+    font-size: 65px;
+    text-align: end;
+    justify-content: center;
+}
+#workwindow {
+    width: 95%;
+    height: 100px;
+    color: white;
+    padding-top: 25px;
+}
+.buttons {
+    height:500px;
+    margin: 10px 15px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    
+}
+.buttons button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 32px;
+    text-align: center;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+#null {
+    width: 170px;
+    height: 80px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+#division, #multiply, #substraction, #sum, #result {
+    background-color: orange;
+    color: white;
+    font-size: 45px;
+}
+#ac, #negative, #modulo {
+    background-color: grey;
+    color: black;
+}
+
+
